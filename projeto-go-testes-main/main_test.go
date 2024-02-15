@@ -119,3 +119,4 @@ func TestEditaUmAlunoHandler(t *testing.T) {
 	assert.Equal(t, "123456700", alunoMockAtualizado.RG)
 	assert.Equal(t, "Nome do Aluno Teste", alunoMockAtualizado.Nome)
 }
+
